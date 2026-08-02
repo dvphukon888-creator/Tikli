@@ -71,7 +71,10 @@ margin-bottom:15px;
 }
 
 .main-message{
-font-size:18px;
+font-size:23px;
+font-weight:500;
+line-height:2;
+}
 line-height:1.8;
 color:#444;
 white-space:pre-line;
