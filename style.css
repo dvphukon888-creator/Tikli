@@ -93,3 +93,29 @@ button:hover{
 transform:scale(1.08);
 box-shadow:0 8px 20px rgba(255,95,158,.4);
 }
+#loveBarContainer{
+width:100%;
+height:24px;
+background:#ffe6ef;
+border-radius:50px;
+margin-top:20px;
+overflow:hidden;
+}
+
+#loveBar{
+height:100%;
+width:0%;
+background:linear-gradient(90deg,#ff7eb3,#ff4d88);
+transition:.4s;
+}
+
+#loveText{
+margin-top:15px;
+font-size:18px;
+color:#555;
+}
+
+#teddyScene{
+margin-top:30px;
+animation:pop 1s;
+}
