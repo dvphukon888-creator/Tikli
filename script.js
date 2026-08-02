@@ -144,3 +144,21 @@ c.remove();
 }
 
 }
+// Typewriter Effect
+
+const text = "💖 For Tikli 💖";
+const typing = document.getElementById("typing");
+
+let i = 0;
+
+function typeWriter() {
+    if (i < text.length) {
+        typing.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 120);
+    }
+}
+
+window.onload = function () {
+    typeWriter();
+};
